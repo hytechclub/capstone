@@ -2,17 +2,17 @@
 Material for the Software Development Capstone Hy-Tech Club Course
 
 ## Schedule
-Week 1 - Icebreakers, Class Rules, Housekeeping, Project Ideas
-Week 2 - Agile Presentation, Forming of Teams
-Week 3 - UX Presentation, Project Architecture/Design Work
-Week 4 - GitHub Presentation, Project Work Begins
-Week 5 - Project Work Continues
-Week 6 - Project Work Continues
-Week 7 - Mid-semester Demo
-Week 8 - Project Work Continues
-Week 9 - Project Work Continues
-Week 10 - Project Work Continues
-Week 11 - Final Demo
+- Week 1: Icebreakers, Class Rules, Housekeeping, Project Ideas
+- Week 2: Agile Presentation, Forming of Teams
+- Week 3: UX Presentation, Project Architecture/Design Work
+- Week 4: GitHub Presentation, Project Work Begins
+- Week 5: Project Work Continues
+- Week 6: Project Work Continues
+- Week 7: Mid-semester Demo
+- Week 8: Project Work Continues
+- Week 9: Project Work Continues
+- Week 10: Project Work Continues
+- Week 11: Final Demo
 
 ## Technology
 - [Discord](https://discord.com/channels/755095534922105002/755095534922105006) for communication between teams and with instructors
