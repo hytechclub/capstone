@@ -1,0 +1,403 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Push Changes · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../GitLesson.html" />
+    
+    
+    <link rel="prev" href="PullChanges.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../StudentDesc.html">
+            
+                <a href="../StudentDesc.html">
+            
+                    
+                    Git Lesson
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../Intro/StudentDesc.html">
+            
+                <a href="../Intro/StudentDesc.html">
+            
+                    
+                    Git Intro
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="../Intro/MakeAGitHubAccount.html">
+            
+                <a href="../Intro/MakeAGitHubAccount.html">
+            
+                    
+                    Make a GitHub Account
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="../Intro/CreateAndCloneARepository.html">
+            
+                <a href="../Intro/CreateAndCloneARepository.html">
+            
+                    
+                    Create & Clone a Repository
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="StudentDesc.html">
+            
+                <a href="StudentDesc.html">
+            
+                    
+                    Pushing & Pulling
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="PullChanges.html">
+            
+                <a href="PullChanges.html">
+            
+                    
+                    Pull Changes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2.2" data-path="PushChanges.html">
+            
+                <a href="PushChanges.html">
+            
+                    
+                    Push Changes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../GitLesson.html">
+            
+                <a href="../GitLesson.html">
+            
+                    
+                    Resources
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Push Changes</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="push-changes">Push Changes</h1>
+<p>When you want to store a change on your remote repository, you will have to <strong>push</strong> those changes up. When you push your changes, they will appear on the server.</p>
+<h2 id="adding-committing-and-pushing-in-visual-studio-code">Adding, Committing, and Pushing in Visual Studio Code</h2>
+<p>If you have Git installed, Visual Studio Code has some built-in tools that make it easy to interact with your repository. First, make sure you have opened the proper root-level folder for your local repository clone.</p>
+<p>To view the various source control options, click the Source Control icon on the left menu:<br><img src="https://i.imgur.com/jm8aCAA.png" alt=""></p>
+<p>Then, if you make a change to one of the files in your local repository, it will appear in the source control pane.</p>
+<h3 id="stage-add-the-changes-for-commit">Stage (add) the Changes for Commit</h3>
+<p>If you have a change and you are ready to commit it, you first have to <strong>add</strong> or <strong>stage</strong> the change for commit. In the source control pane, click the <em>plus</em> icon next to the file to add it to the commit:<br><img src="https://i.imgur.com/dtSdJny.png" alt=""></p>
+<h3 id="commit-the-change">Commit the Change</h3>
+<p>After you have added the change, it will be <em>staged</em> for commit. From there, you simply have to commit it!</p>
+<ol>
+<li>Type a <strong>commit message</strong> in the box describing your change</li>
+<li>Click the <em>checkmark</em> icon to complete the commit<br> <img src="https://i.imgur.com/WRwINED.png" alt=""></li>
+</ol>
+<p>Once your change is committed, your local repository will include the change. The next step is to sync the change with the remote repository, so it&apos;s actually in GitHub.</p>
+<h3 id="push-the-change">Push the Change</h3>
+<p>Visual Studio Code has an interesting tool for pushing changes up to the remote repository. Instead of simply pushing changes, it actually <em>synchronizes</em> the local and remote repositories. This means that it pushes any commit changes up, and also pulls down any changes from the server that may exist. For now, you&apos;ll only use the tool to push, but it works for pulling too.</p>
+<p>To push your changes up, use the <strong>Synchronize Changes</strong> button on the blue bar at the bottom of the window:<br><img src="https://i.imgur.com/d2PY1qT.png" alt=""></p>
+<p>The button should have a recycle/refresh symbol, a number and a down arrow, and another number and an up arrow. The down number corresponds with how many new commits exist on the server, and the up number corresponds with how many new commits exist in the local repository.</p>
+<p>Once you click that button, you will have to enter your credentials. After that, your changes should exist in the server repository! You can go to your repository on GitHub and make sure the changes are there.</p>
+<h2 id="adding-committing-and-pushing-in-visual-studio">Adding, Committing, and Pushing in Visual Studio</h2>
+<p>If you have Git installed, Visual Studio has some built-in tools that make it easy to interact with your repository.</p>
+<ol>
+<li>Open the <strong>Team Explorer</strong> pane<br> <img src="https://i.imgur.com/TIRIdPc.png" alt=""></li>
+<li>Under &quot;Project&quot;, click <strong>Changes</strong><br> <img src="https://i.imgur.com/BSoVqqU.png" alt=""></li>
+<li>In Changes, next to the &quot;Changes&quot; section, click the &quot;plus&quot; icon to Stage All changes<br> <img src="https://i.imgur.com/y3vBpTr.png" alt=""></li>
+<li>In the commit message box, enter a message</li>
+<li>On the <strong>Commit Staged</strong> button, click the dropdown</li>
+<li>Select <strong>Commit Staged and Push</strong> to push your changes up to the server<br> <img src="https://i.imgur.com/waB24PL.png" alt=""></li>
+</ol>
+<p>Once you click that button, your changes should exist in the server repository! You can go to your repository on GitHub and make sure the changes are there.</p>
+<h2 id="adding-committing-and-pushing-via-the-command-line">Adding, Committing, and Pushing via the Command Line</h2>
+<p>First, make sure your present working directory is your repository&apos;s folder. Then, use the commands below to interact with git.</p>
+<h3 id="status">Status</h3>
+<p>To see the current status of your local repository, you can use the <code>git status</code> command:</p>
+<pre><code class="lang-bash">git status
+</code></pre>
+<h3 id="add-all-changes-in-the-repository">Add All Changes in the Repository</h3>
+<p>This command will take any changes you currently have, and stage them for commit:</p>
+<pre><code class="lang-bash">git add .
+</code></pre>
+<h3 id="commit-all-changes">Commit All Changes</h3>
+<p>Once all of your changes are staged for commit, you can use the <code>git commit</code> command to commit them. Replace <code>COMMIT MESSAGE HERE</code> with a message regarding your changes:</p>
+<pre><code class="lang-bash">git commit -m <span class="hljs-string">&quot;COMMIT MESSAGE HERE&quot;</span>
+</code></pre>
+<h3 id="push-all-changes">Push All Changes</h3>
+<p>Once your changes are committed, you can push them up to the server repository. Use the <code>git push</code> command to accomplish this:</p>
+<pre><code class="lang-bash">git push
+</code></pre>
+<blockquote>
+<p>Note: you will have to enter your credentials in order to push to the server repository. After that, your changes should exist in the server repository! You can go to your server repository on GitHub and make sure the changes are there.</p>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="PullChanges.html" class="navigation navigation-prev " aria-label="Previous page: Pull Changes">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../GitLesson.html" class="navigation navigation-next " aria-label="Next page: Resources">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Push Changes","level":"1.2.2.2","depth":3,"next":{"title":"Resources","level":"1.2.3","depth":2,"path":"GitLesson/GitLesson.md","ref":"GitLesson/GitLesson.md","articles":[]},"previous":{"title":"Pull Changes","level":"1.2.2.1","depth":3,"path":"GitLesson/PushingAndPulling/PullChanges.md","ref":"GitLesson/PushingAndPulling/PullChanges.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"CompleteSummaryVirtual.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"GitLesson/PushingAndPulling/PushChanges.md","mtime":"2020-09-23T13:45:25.897Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-09-23T13:46:03.661Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
