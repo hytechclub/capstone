@@ -2,7 +2,7 @@
 Material for the Software Development Capstone Hy-Tech Club Course
 
 ## Schedule
-- Week 1: Icebreakers, Class Rules, Housekeeping, Project Ideas
+- Week 1: Icebreakers, Class Rules, Housekeeping, GitHub Accounts, Project Ideas
 - Week 2: Agile Presentation, Forming of Teams
 - Week 3: UX Presentation, Project Architecture/Design Work
 - Week 4: [GitHub Lessons](GitLesson/), Project Work Begins
