@@ -6,3 +6,4 @@
     - [Pull Changes](GitLesson/PushingAndPulling/PullChanges.md)
     - [Push Changes](GitLesson/PushingAndPulling/PushChanges.md)
   - [Resources](GitLesson/GitLesson.md)
+- [Session Recordings](SessionRecordings.md)

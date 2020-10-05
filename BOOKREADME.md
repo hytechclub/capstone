@@ -9,6 +9,9 @@ The meeting ID is **941 9461 4046**, and the password is **875061**.
 - [Click Here to join from PC, Mac, Linux, iOS or Android](https://hyland.zoom.us/j/94194614046?pwd=S1pQVGgwam1DTVB6dVZsZHJPWG1zdz09).
 - To join by phone: Dial [+1 312 626 6799](tel:+13126266799) and enter the meeting ID and password.
 
+## Session Recordings
+Check out [this page](SessionRecordings.md) to watch recordings of the virtual sessions.
+
 ## Discord
 Use **Discord** to ask questions, view announcements, and chat with fellow students. Note that students are **NOT** required to use Discord.
 
