@@ -1,5 +1,29 @@
 # Software Development Capstone
-Material for the Software Development Capstone Hy-Tech Club Course
+This is material for the Software Development Capstone Hy-Tech Club Course.
+
+## Description
+In the capstone course, students will work on one long-term project for the entirety of the semester. There may be some instructor-led lessons scattered throughout the course, but most of the time will be spent working individually or as teams to build software applications.
+ 
+This course will be offered to students that are self-motivated, hard-working, and up for the challenge. Should a student wish to apply for Capstone, the Tech Outreach team will consult with the student's former instructors to determine if the student would be a good fit for the course. If an applicant is not a former Hy-Tech Club student, skill assessments may be given to determine if this is the best option for them.
+
+## Instructor-Led Lessons
+- Software Development Teams and Processes
+- User Experience
+- Version Control
+
+## Schedule
+- Session 1: Icebreakers, Class Rules, Housekeeping, Brainstorming, Teams Formed
+- Session 2: Software Development Teams and Processes Lesson, Project and Team Roles Decided, Trello Board Created
+- Session 3: User Experience Lesson, Project Architecture and Design Determined
+- Session 4: Version Control Lesson, Project Work
+- Session 5: Project Work
+- Session 6: Project Work
+- Session 7: Mid-Semester Demo
+- Session 8: Project Work
+- Session 9: Project Work
+- Session 10: Project Work
+- Session 11: Project Work
+- Session 12: Final Demo
 
 ## Schedule
 - Week 1: Icebreakers, Class Rules, Housekeeping, GitHub Accounts, Project Ideas
@@ -16,8 +40,6 @@ Material for the Software Development Capstone Hy-Tech Club Course
 
 ## Technology
 - [Discord](https://discord.com/channels/755095534922105002/755095534922105006) for communication between teams and with instructors
-- Zoom for check-ins
-- [ClassDojo](https://teach.classdojo.com/#/classes/5f60a53160fe6237fa76c0f3/points) for point tracking
 - [Trello](https://trello.com/) for story/ticket tracking
 - [GitHub](https://github.com/) for code storage (recommended)
 - Any technology they want for the actual projects
