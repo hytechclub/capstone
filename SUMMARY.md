@@ -1,1 +1,3 @@
 - [Software Development Teams](SoftwareDevTeamsLesson/StudentDesc.md)
+- [User Experience](UserExperienceLesson/StudentDesc.md)
+- [Version Control](VersionControlLesson/StudentDesc.md)
