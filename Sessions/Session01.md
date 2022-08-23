@@ -1,6 +1,9 @@
 # Session 1
 The opening session should mostly serve to acclimate the students with the idea of the course, and allow them to form their teams.
 
+**Main Goal**
+By the end of this session, all teams should be fully formed.
+
 ## Icebreaker Activities
 There should be a significant focus on the icebreakers for this course. Students will be working together on teams, so it is important that they get to know each other a little bit. It may be worth facilitating multiple activities to start building camaraderie.
 
@@ -29,14 +32,12 @@ Have each student try to think of feasible software project ideas. Websites, gam
 At the end of this time, have each student share their ideas.
 
 ## Team Formation
-Have the students form teams. Each team should have at least two students, with a maximum of four students. It may be necessary to adjust the numbers so that everyone has a suitable team. If students do not know anybody, it may be necessary to place students on teams.
-
-**By the end of the session, teams should be fully formed.**
+Have the students form teams. Each team should have at least two students, with a maximum of four students. It may be necessary to adjust the numbers so that everyone has a suitable team. If students do not know anybody, it may be necessary to place students on teams. _Note that throughout the course of the semester, each student will likely take on almost all of the software development team roles in some capacity; however, if a student has more interest in one specific role, they can focus their efforts there._ Instructors should approve each team.
 
 ## Remaining Time
 If teams have all been formed before the end of the session, the remaining time can be used to do another icebreaker activity.
 
-## Agenda Timing
+## Agenda
 
 | Activity | Time |
 |-|-|

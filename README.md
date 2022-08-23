@@ -10,14 +10,15 @@ This course will be offered to students that are self-motivated, hard-working, a
 - Software Development Teams and Processes
 - User Experience
 - Version Control
+- Presentations
 
 ## Schedule
-- Session 1: Icebreakers, Class Rules, Housekeeping, Brainstorming, Teams Formed
-- Session 2: Software Development Teams and Processes Lesson, Project and Team Roles Decided, Trello Board Created
-- Session 3: User Experience Lesson, Project Architecture and Design Determined
-- Session 4: Version Control Lesson, Project Work
+- [Session 1](Sessions/Session01.md): Icebreakers, Course Overview, [Software Development Teams Lesson](SoftwareDevTeamsLesson/README.md), Brainstorming, Team Formation
+- [Session 2](Sessions/Session02.md): [User Experience Lesson](UserExperienceLesson/README.md), Project Decision, Trello Board Creation, Design and Backlog
+- [Session 3](Sessions/Session03.md): [Version Control Lesson](VersionControlLesson/README.md), Tech Stack Discussion, Tech Stack Decision, Repository Creation
+- Session 4: Project Work
 - Session 5: Project Work
-- Session 6: Project Work
+- Session 6: Project Work, [Presentations Lesson](PresentationsLesson/README.md)
 - Session 7: Mid-Semester Demo
 - Session 8: Project Work
 - Session 9: Project Work
@@ -25,27 +26,14 @@ This course will be offered to students that are self-motivated, hard-working, a
 - Session 11: Project Work
 - Session 12: Final Demo
 
-## Schedule
-- Week 1: Icebreakers, Class Rules, Housekeeping, GitHub Accounts, Project Ideas
-- Week 2: Agile Presentation, Forming of Teams
-- Week 3: UX Presentation, Project Architecture/Design Work
-- Week 4: [GitHub Lessons](GitLesson/), Project Work Begins
-- Week 5: Project Work Continues
-- Week 6: Project Work Continues
-- Week 7: Mid-semester Demo
-- Week 8: Project Work Continues
-- Week 9: Project Work Continues
-- Week 10: Project Work Continues
-- Week 11: Final Demo
-
 ## Technology
-- [Discord](https://discord.com/channels/755095534922105002/755095534922105006) for communication between teams and with instructors
+- [Discord](https://discord.com/channels/1007371497645543434/1007374016262189158) for communication between teams and with instructors
 - [Trello](https://trello.com/) for story/ticket tracking
-- [GitHub](https://github.com/) for code storage (recommended)
-- Any technology they want for the actual projects
+- [GitHub](https://github.com/) or [Replit](https://replit.com/) for code storage (recommended)
+- Any technology they want for the actual projects, with some guidelines
 
 ## Student Skills
-Throughout the semester, students should learn and practice the following skills.
+Throughout the semester, students should learn and practice the following skills:
 
 ### Project Management
 Students should be able to manage their own work using Trello. They should plan their project properly, delegate tasks, and complete work as needed.
