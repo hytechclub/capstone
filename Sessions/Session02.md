@@ -2,6 +2,7 @@
 The second session should be an opportunity for teams to decide on a project, and begin planning it out.
 
 **Main Goals**
+
 By the end of the session, each team should have:
 
 - decided on a project idea
@@ -28,6 +29,11 @@ Once projects have been decided, each team should create a [Trello Account](http
 
 [This board](https://trello.com/b/R1EEhM15/hy-tech-club-software-development-template) can be used as a template. Instructors should check that each team has a board created and customized.
 
+## GitHub Repository Cloning
+Instructors will have to create repositories for each team based on their project. They will have to setup proper branch protections for the `main` and `develop` branches. Once students have created GitHub accounts, they should be added as collaborators in their team's repository. Students should also clone their team's repository locally, so it is ready to go. In the next session, during the [GitHub Lesson](../GitHubLesson/README.md), students will be able to practice contributing to their team's repositories. 
+
+### Optional Self-Paced Work: Hello World
+
 ## Design & Backlog
 For the remainder of the session, teams should work on planning out their projects. They can collaborate on drawing up wireframes using [Figma](https://www.figma.com/), [draw.io](https://drawio-app.com/), or good old fashioned pen and paper. They can also add items to their To Do list, and work on prioritizing the list.
 
@@ -41,4 +47,5 @@ At this point, teams should focus mainly on the user-facing design and product f
 | Project Decision | 15m |
 | Break | 10m |
 | Trello Boards | 10m |
-| Design & Backlog | 40m |
+| GitHub Repository Cloning | 20m |
+| Design & Backlog | 20m |

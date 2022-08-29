@@ -1,3 +1,6 @@
 - [Software Development Teams](SoftwareDevTeamsLesson/StudentDesc.md)
 - [User Experience](UserExperienceLesson/StudentDesc.md)
-- [Version Control](VersionControlLesson/StudentDesc.md)
+- [Git & GitHub](GitHubLesson/StudentDesc.md)
+  - [Make an Account](GitHubLesson/MakeAGitHubAccount.md)
+  - [Local Setup](GitHubLesson/LocalSetup.md)
+  - [Hello World](GitHubLesson/HelloWorld.md)
