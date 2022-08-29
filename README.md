@@ -9,13 +9,13 @@ This course will be offered to students that are self-motivated, hard-working, a
 ## Instructor-Led Lessons
 - Software Development Teams and Processes
 - User Experience
-- Version Control
+- GitHub
 - Presentations
 
 ## Schedule
 - [Session 1](Sessions/Session01.md): Icebreakers, Course Overview, [Software Development Teams Lesson](SoftwareDevTeamsLesson/README.md), Brainstorming, Team Formation
-- [Session 2](Sessions/Session02.md): [User Experience Lesson](UserExperienceLesson/README.md), Project Decision, Trello Board Creation, Design and Backlog
-- [Session 3](Sessions/Session03.md): [Version Control Lesson](VersionControlLesson/README.md), Tech Stack Discussion, Tech Stack Decision, Repository Creation
+- [Session 2](Sessions/Session02.md): [User Experience Lesson](UserExperienceLesson/README.md), Project Decision, Trello Board Creation, Repository Creation, Design and Backlog
+- [Session 3](Sessions/Session03.md): [GitHub Lesson](GitHubLesson/README.md), Tech Stack Discussion, Tech Stack Decision
 - Session 4: Project Work
 - Session 5: Project Work
 - Session 6: Project Work, [Presentations Lesson](PresentationsLesson/README.md)

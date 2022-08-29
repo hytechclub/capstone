@@ -2,6 +2,7 @@
 The opening session should mostly serve to acclimate the students with the idea of the course, and allow them to form their teams.
 
 **Main Goal**
+
 By the end of this session, all teams should be fully formed.
 
 ## Icebreaker Activities
