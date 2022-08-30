@@ -6,8 +6,8 @@ Learn how to use Git and GitHub to store and collaborate on code!
 
 ## Setup
 - [Click here for GitHub account creation instructions.](MakeAGitHubAccount.md)
-- [Click here for the Hello World GitHub walkthrough.](https://guides.github.com/activities/hello-world/)
 - [Click here for local setup instructions.](LocalSetup.md)
+- [OPTIONAL: Click here for the Hello World GitHub walkthrough.](https://guides.github.com/activities/hello-world/)
 
 ## Pull Request Follow-Along
 [Click here to see how to contribute to a repository via Pull Request.](PullRequestFollowAlong.md)

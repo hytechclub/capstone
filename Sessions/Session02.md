@@ -8,6 +8,7 @@ By the end of the session, each team should have:
 - decided on a project idea
 - created some designs for the product
 - created a Trello board
+- have a local clone of their team's GitHub repository
 - filled the Trello board To Do list/Backlog with prioritized cards
 
 ## User Experience Lesson
@@ -30,9 +31,19 @@ Once projects have been decided, each team should create a [Trello Account](http
 [This board](https://trello.com/b/R1EEhM15/hy-tech-club-software-development-template) can be used as a template. Instructors should check that each team has a board created and customized.
 
 ## GitHub Repository Cloning
-Instructors will have to create repositories for each team based on their project. They will have to setup proper branch protections for the `main` and `develop` branches. Once students have created GitHub accounts, they should be added as collaborators in their team's repository. Students should also clone their team's repository locally, so it is ready to go. In the next session, during the [GitHub Lesson](../GitHubLesson/README.md), students will be able to practice contributing to their team's repositories. 
+Though this precedes the actual [GitHub Lesson](../GitHubLesson/README.md), it will help facilitate the next session, where students will be able to practice contributing to their team's repositories.
 
-### Optional Self-Paced Work: Hello World
+- Instructors should create repositories for each team within the [HTO Projects GitHub organization](https://github.com/hto-projects)
+    - Each repository should start from the [Gitflow Template Repo](https://github.com/hto-projects/gitflow-template)
+    - Instructors will need to set up proper protection for the `main` and `develop` branches
+- Students should each [make a GitHub account](../GitHubLesson/MakeAGitHubAccount.md)
+- Once students have accounts, instructors should add them as collaborators to their team's repository
+- Students should then [clone their team's repository](../GitHubLesson/LocalSetup.md)
+
+Instructors should check that each student has a local clone of their repository. It will make things much easier in the next session.
+
+### OPTIONAL Self-Paced Work: Hello World
+If students would like to get a head start on learning some GitHub concepts, they can complete the [Hello World](https://guides.github.com/activities/hello-world/) walkthrough.
 
 ## Design & Backlog
 For the remainder of the session, teams should work on planning out their projects. They can collaborate on drawing up wireframes using [Figma](https://www.figma.com/), [draw.io](https://drawio-app.com/), or good old fashioned pen and paper. They can also add items to their To Do list, and work on prioritizing the list.
