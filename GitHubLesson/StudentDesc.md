@@ -2,7 +2,7 @@
 Learn how to use Git and GitHub to store and collaborate on code!
 
 ## PowerPoint Presentation
-<iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://hylandtechclub.com/capstone/SoftwareDevTeamsLesson/Presentation.pptx' width='100%' height='450px' frameborder='0'></iframe>
+<iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://hylandtechclub.com/capstone/GitHubLesson/Presentation.pptx' width='100%' height='450px' frameborder='0'></iframe>
 
 ## Setup
 - [Click here for GitHub account creation instructions.](MakeAGitHubAccount.md)
