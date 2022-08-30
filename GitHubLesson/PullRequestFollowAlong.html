@@ -249,7 +249,98 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="pull-request-follow-along">Pull Request Follow-Along</h1>
-<p>Follow these instructions to practice making a contribution to a repository!</p>
+<p>Follow these instructions to practice making a contribution to a codebase!</p>
+<h3 id="note">Note</h3>
+<p>To complete this activity, make sure to have a <a href="LocalSetup.html">local clone</a> of a repository set up and ready to go. An instructor should make sure you have a repository for you or for your team&apos;s project.</p>
+<p>If necessary, use <a href="https://github.com/hto-projects/gitflow-template" target="_blank">this template</a> to create a test repository for practice purposes. Simply click on the &quot;Use this template&quot; button, and once the new repository has been created, clone it. </p>
+<h3 id="the-template-repository">The Template Repository</h3>
+<p>If using the <a href="https://github.com/hto-projects/gitflow-template" target="_blank"><code>hto-projects/gitflow-template</code></a> template repository, there are some ready-to-go issues. Each text file in the <strong>PullTestPoems</strong> folder has an error that must be fixed:</p>
+<ul>
+<li><strong>16BitIntel8088Chip.txt</strong>: <code>Koypro</code> should be <code>Kaypro</code></li>
+<li><strong>ADreamWithinADream.txt</strong>: last line, <code>bean</code> should be <code>dream</code></li>
+<li><strong>Alone.txt</strong>: <code>alne</code> should be <code>alone</code></li>
+<li><strong>AMomentOfHappiness.txt</strong>: <code>birdos</code> should be <code>birds</code></li>
+<li><strong>ARedRedRose.txt</strong>: <code>Boourns</code> should be <code>Burns</code></li>
+<li><strong>AutumnMovement.txt</strong>: <code>Sandberg</code> should be <code>Sandburg</code></li>
+<li><strong>AWorldOfDew.txt</strong>: <code>strugle</code> should be <code>struggle</code></li>
+<li><strong>ClenchedSoul.txt</strong>: <code>red</code> should be <code>blue</code></li>
+<li><strong>DontHesitate.txt</strong>: <code>thats</code> should be <code>that&#x2019;s</code></li>
+<li><strong>DustOfSnow.txt</strong>: <code>food</code> should be <code>mood</code></li>
+<li><strong>Harlem.txt</strong>: <code>Hughesy</code> should be <code>Hughes</code></li>
+<li><strong>HopeIsTheThingWithFeathers</strong>: <code>woarm</code> should be <code>warm</code></li>
+<li><strong>No1.txt</strong>: <code>Jhon</code> should be <code>John</code></li>
+<li><strong>Sick.txt</strong>: <code>byShel</code> should be <code>by Shel</code></li>
+<li><strong>Sonnet18.txt</strong>: <code>summer&#x2019;s hay</code> should be <code>summer&#x2019;s day</code></li>
+<li><strong>TheRedWheelbarrow.txt</strong>: <code>carlos</code> should be <code>Carlos</code></li>
+<li><strong>ThereWillComeSoftRains.txt</strong>: <code>tremolus</code> should be <code>tremulous</code></li>
+<li><strong>TheTiger.txt</strong>: <code>&#x1F981;</code> should be <code>&#x1F42F;</code></li>
+<li><strong>TheTyger.txt</strong>: <code>skis</code> should be <code>skies</code></li>
+<li><strong>TooManyDaves.txt</strong>: <code>Raves</code> should be <code>Daves</code></li>
+<li><strong>WeHaveNotLongToLove.txt</strong>: <code>Kentucky</code> should be <code>Tennessee</code></li>
+</ul>
+<p>Each person should work on fixing one of these issues! Make sure if you&apos;re working on a team that each team member chooses a different file - this will help avoid merge conflicts and repeated work.</p>
+<h2 id="fixing-your-issue---branching--pushing">Fixing Your Issue - Branching &amp; Pushing</h2>
+<p>The first step will be to make the changes to fix your assigned issue, and push them up to GitHub. The changes themselves do not matter much - they should be simple and trivial.</p>
+<ol>
+<li>Open Visual Studio Code, and open the local clone of the repository</li>
+<li>Create a new branch in the local repository using your name, e.g., <code>amy-fix</code><ul>
+<li>Command Line: <code>git checkout -b amy-fix</code></li>
+<li>VS Code: click branch name in lower left, enter <code>amy-fix</code>, select &quot;+ Create new branch...&quot;</li>
+<li><em>Note: Be sure to name your branches well!</em></li>
+</ul>
+</li>
+<li>Open your file for editing (each person should have chosen their own file)</li>
+<li>Fix the error as listed above, and save the file</li>
+<li>View and stage your changes<ul>
+<li>Command Line: <code>git add .</code></li>
+<li>VS Code: open Source Control pane, click on the changed file to see changes, click the &quot;+&quot; to stage them</li>
+</ul>
+</li>
+<li>Commit your changes with a message, e.g., &quot;fix spelling&quot;<ul>
+<li>Command Line: <code>git commit -m &quot;fix spelling&quot;</code></li>
+<li>VS Code: in Source Control, enter &quot;fix spelling&quot; in the &quot;Message&quot; box, and click &quot;Commit&quot;</li>
+<li><em>Note: Be sure to enter clear commit messages!</em></li>
+</ul>
+</li>
+<li>Publish your branch<ul>
+<li>Command Line: <code>git push --set-upstream origin amy-fix</code></li>
+<li>VS Code: in Source Control, click &quot;Publish Branch&quot;</li>
+</ul>
+</li>
+</ol>
+<p>Once you&apos;ve completed these steps, you should be able to take a look at your repository on the web at <a href="https://github.com/" target="_blank">GitHub</a>, and see your branch with the changes!</p>
+<h2 id="making-a-pull-request">Making a Pull Request</h2>
+<p>The next step is to create a Pull Request to merge <em>your</em> branch (e.g., <code>amy-fix</code>) into the <code>develop</code> branch.</p>
+<ol>
+<li>Open up your repository on <a href="https://github.com/" target="_blank">GitHub</a></li>
+<li>At the top, click on the &quot;Pull requests&quot; tab, and click the &quot;New pull request&quot; button<br> <img src="Assets/NewPullRequest.png" alt=""></li>
+<li>Keep the <strong>base</strong> branch as <code>develop</code></li>
+<li>Set the <strong>compare</strong> branch to your branch (e.g., <code>amy-fix</code>)</li>
+<li>Click the &quot;Create pull request&quot; button<br> <img src="Assets/CreateAmyPr.png" alt=""></li>
+<li>Enter a detailed comment, and click the &quot;Create pull request&quot; button<br> <img src="Assets/AmyPrMessage.png" alt=""></li>
+</ol>
+<p>Now your change should be ready to merge!</p>
+<h2 id="merging-the-pull-request">Merging the Pull Request</h2>
+<p>At this point, the team will discuss the proposed changes in the Pull Request. Typically, the <code>develop</code> branch will be protected, so that it will only be possible to merge Pull Requests with an approval from another team member. Thus, this next part may require assistance from a fellow student.</p>
+<p>It is typically bad practice to merge your own Pull Requests. It&apos;s always good to have someone else take a look at your work, give you feedback, and make sure everything is good to go.</p>
+<ol>
+<li>Find the &quot;Reviewers&quot; section on the right side of the Pull Request page</li>
+<li>Click the &#x2699; icon</li>
+<li>Enter the GitHub account name of a team member<br> <img src="Assets/RequestReview.png" alt=""></li>
+</ol>
+<p>Now, it will be up to that team member to approve this request, and merge it into the codebase! The team member should:</p>
+<ol>
+<li>Go to the Pull Request Page</li>
+<li>If it is available, click the &quot;Add your review&quot; button</li>
+<li>Otherwise, click the &quot;Files Changed&quot; tab<br> <img src="Assets/FilesChanged.png" alt=""></li>
+<li>Take a look at the changes to the files - make sure they are all good!</li>
+<li>On the right side, click the &quot;Review changes&quot; button<br> <img src="Assets/ReviewChanges.png" alt=""></li>
+<li>Enter a comment, (hopefully) select the &quot;Approve&quot; option, and click &quot;Submit Review&quot;<br> <img src="Assets/SubmitReview.png" alt=""></li>
+<li>Back on the Pull Request page, click the &quot;Merge pull request&quot; button<br> <img src="Assets/MergePr.png" alt=""></li>
+<li>Click the &quot;Confirm merge&quot; button<br> <img src="Assets/ConfirmMerge.png" alt=""></li>
+<li>Now the change has been merged! Last thing to do is delete the feature branch<br> <img src="Assets/DeleteBranch.png" alt=""></li>
+</ol>
+<p>And that&apos;s it! Hopefully by the end of this walkthrough, you were able to successfully make a contribution to a GitHub repository.</p>
 
                                 
                                 </section>
@@ -293,7 +384,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Pull Request Follow-Along","level":"1.4.3","depth":2,"next":{"title":"Merge Changes Demo","level":"1.4.4","depth":2,"path":"GitHubLesson/MergeChanges.md","ref":"GitHubLesson/MergeChanges.md","articles":[]},"previous":{"title":"Local Setup","level":"1.4.2","depth":2,"path":"GitHubLesson/LocalSetup.md","ref":"GitHubLesson/LocalSetup.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"StudentDesc.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"GitHubLesson/PullRequestFollowAlong.md","mtime":"2022-08-30T14:59:59.893Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-08-30T15:00:35.684Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Pull Request Follow-Along","level":"1.4.3","depth":2,"next":{"title":"Merge Changes Demo","level":"1.4.4","depth":2,"path":"GitHubLesson/MergeChanges.md","ref":"GitHubLesson/MergeChanges.md","articles":[]},"previous":{"title":"Local Setup","level":"1.4.2","depth":2,"path":"GitHubLesson/LocalSetup.md","ref":"GitHubLesson/LocalSetup.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"StudentDesc.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"GitHubLesson/PullRequestFollowAlong.md","mtime":"2022-08-30T20:31:45.682Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-08-30T20:32:19.616Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
