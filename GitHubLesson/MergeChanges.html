@@ -1,0 +1,516 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Merge Changes Demo · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="PullRequestFollowAlong.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../SoftwareDevTeamsLesson/StudentDesc.html">
+            
+                <a href="../SoftwareDevTeamsLesson/StudentDesc.html">
+            
+                    
+                    Software Development Teams
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../UserExperienceLesson/StudentDesc.html">
+            
+                <a href="../UserExperienceLesson/StudentDesc.html">
+            
+                    
+                    User Experience
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="StudentDesc.html">
+            
+                <a href="StudentDesc.html">
+            
+                    
+                    Git & GitHub
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="MakeAGitHubAccount.html">
+            
+                <a href="MakeAGitHubAccount.html">
+            
+                    
+                    Make an Account
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="LocalSetup.html">
+            
+                <a href="LocalSetup.html">
+            
+                    
+                    Local Setup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="PullRequestFollowAlong.html">
+            
+                <a href="PullRequestFollowAlong.html">
+            
+                    
+                    Pull Request Follow-Along
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.4" data-path="MergeChanges.html">
+            
+                <a href="MergeChanges.html">
+            
+                    
+                    Merge Changes Demo
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Merge Changes Demo</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="git---merge-changes">Git - Merge Changes</h1>
+<p>Merging changes is one of the most crucial aspects of collaborating on a git project. When multiple developers are working on the same codebase simultaneously, it can be difficult to keep things running smoothly. This demonstration simulates a merge conflict, and shows how it is possible to resolve issues of this nature.</p>
+<h2 id="the-starter-repository">The Starter Repository</h2>
+<p>For this example, we begin with a <a href="https://github.com/hto-projects/merge-demo-start/" target="_blank">repository</a> that has some &quot;bugs&quot; to fix. For the sake of simplicity, these bugs will be semantic/spelling mistakes within a block of text. These errors are all within a file named <strong>Frankenstein.md</strong>, which contains the first few paragraphs of Mary Shelley&apos;s Frankenstein. </p>
+<p>Here are the errors, grouped into three distinct categories:</p>
+<h4 id="1-british-spellings">1. British Spellings</h4>
+<ul>
+<li>&quot;splendour&quot; should be &quot;splendor&quot;</li>
+<li>&quot;tranquillise&quot; should be &quot;tranquilize&quot;</li>
+<li>&quot;favourite&quot; should be &quot;favorite&quot;</li>
+</ul>
+<h4 id="2-name-mistakes">2. Name Mistakes</h4>
+<ul>
+<li>&quot;Maggie&quot; should be &quot;Margaret&quot;</li>
+<li>&quot;Bart&quot; should be &quot;Homer&quot;</li>
+</ul>
+<h4 id="3-spelling-errors">3. Spelling Errors</h4>
+<ul>
+<li>&quot;rejoce&quot; should be &quot;rejoice&quot;</li>
+<li>&quot;abtain&quot; should be &quot;obtain&quot;</li>
+<li>&quot;affusions&quot; should be &quot;effusions&quot;</li>
+</ul>
+<h3 id="importing-the-repository">Importing the Repository</h3>
+<p>To create a working copy of the <strong>merge-demo-start</strong> repository, it will be necessary to import it. Follow these steps:</p>
+<ol>
+<li><a href="https://github.com" target="_blank">Click here to go to GitHub</a></li>
+<li>In the upper right, click on the &quot;+&quot; dropdown and select &quot;Import repository&quot;<br> <img src="Assets/ImportRepo.png" alt=""></li>
+<li>On the next page, paste in the <strong>merge-demo-start</strong> URL for &quot;Your old repository&apos;s clone URL&quot;<ul>
+<li><a href="https://github.com/hto-projects/merge-demo-start/" target="_blank">https://github.com/hto-projects/merge-demo-start/</a></li>
+</ul>
+</li>
+<li>Enter <strong>merge-demo</strong> for the Repository Name</li>
+<li>Click the &quot;Begin import&quot; button<br> <img src="Assets/BeginImport.png" alt=""></li>
+<li>Wait for the import to complete</li>
+<li>Once the import is done, click the link to your new repository!<br> <img src="Assets/ImportedRepoLink.png" alt=""></li>
+</ol>
+<h2 id="fixing-the-errors-in-a-branch">Fixing the Errors in a Branch</h2>
+<p>Now, imagine there are a team of people dedicated to this project. Each individual is assigned one group of errors to fix, and they do this using <em>feature branches</em>. Let&apos;s call one of these people <strong>Alice</strong>, and another one <strong>Bob</strong>. <strong>Alice</strong> will work on Americanizing the text, and <strong>Bob</strong> will work on the name mistakes.</p>
+<p>All of these steps can be completed either on a local clone of the repository, <em>or</em> on the web through <a href="https://github.com/" target="_blank">GitHub.com</a>. Visual Studio Code is recommended. If a local clone is to be used, begin by cloning the repository locally (<a href="LocalSetup.html">these instructions</a> may be helpful). Note that it is possible to open a new terminal in VS Code via the &quot;Terminal&quot; menu.</p>
+<ol>
+<li>On the <strong>merge-demo</strong> repository on GitHub, create a new <em>branch</em> named <code>alice-americanize-spelling</code><ul>
+<li>This is where Alice will do her work</li>
+<li>Command Line: <code>git checkout -b alice-americanize-spelling</code></li>
+<li>VS Code: click current branch in lower left, enter new branch name</li>
+</ul>
+</li>
+<li>On the new branch, open the <strong>Frankenstein.md</strong> file for editing</li>
+<li>Fix the three British spelling mistakes, and commit the changes<ul>
+<li>Command Line: <code>git add .</code>, <code>git commit -m &quot;american spellings&quot;</code>, <code>git push</code></li>
+<li>VS Code: click Source Control icon on the left menu, stage changes, commit changes, publish branch</li>
+</ul>
+</li>
+<li>On the <strong>merge-demo</strong> repository, switch back to the <code>develop</code> branch<ul>
+<li>Command Line: <code>git checkout develop</code></li>
+<li>click current branch in lower left, select <code>develop</code></li>
+</ul>
+</li>
+<li>There, create another new branch named <code>bob-fix-names</code><ul>
+<li>This is where Bob will do his work</li>
+<li>Command Line: <code>git checkout -b bob-fix-names</code></li>
+<li>VS Code: click current branch in lower left, enter new branch name</li>
+</ul>
+</li>
+<li>On the new branch, open the <strong>Frankenstein.md</strong> file for editing</li>
+<li>Fix the two name mistakes, and commit the changes<ul>
+<li>Command Line: <code>git add .</code>, <code>git commit -m &quot;new names&quot;</code>, <code>git push</code></li>
+<li>VS Code: click Source Control icon on the left menu, stage changes, commit changes, push changes</li>
+</ul>
+</li>
+</ol>
+<p>Now there are two branches, each containing <em>some</em> of the necessary bug fixes. The goal is to get both sets of changes into the <code>develop</code> branch, WITHOUT them interfering with each other.</p>
+<blockquote>
+<p>Note: this example may seem contrived, but remember it is simply for demonstration purposes. In a real project, the changes would likely be much more complex.</p>
+</blockquote>
+<h2 id="merging-alices-branch">Merging Alice&apos;s Branch</h2>
+<p>The first part should be fairly straightforward - since both feature branches were directly copied from <code>develop</code>, and there are no additional changes to <code>develop</code>, there should be no conflicts with the first merge. Start with the <code>alice-americanize-spelling</code> branch.</p>
+<p>Merging the branch via pull request will take place via <a href="https://github.com/" target="_blank">GitHub.com</a>.</p>
+<ol>
+<li>Go to the &quot;Pull requests&quot; tab at the top of the page<br> <img src="Assets/PrTab.png" alt=""></li>
+<li>Click on &quot;New pull request&quot;<br> <img src="Assets/NewPullRequest.png" alt=""></li>
+<li>For the &quot;base&quot; branch, keep <code>develop</code></li>
+<li>For the &quot;compare&quot; branch, select <code>alice-americanize-spelling</code><br> <img src="Assets/CompareBranch.png" alt=""></li>
+<li>Check out the changes and click the &quot;Create pull request&quot; button<br> <img src="Assets/CreatePr.png" alt=""></li>
+<li>On the next page, click the &quot;Create pull request&quot; button<br> <img src="Assets/CreatePr2.png" alt=""></li>
+<li>On the next page, click the &quot;Merge pull request&quot; button<br> <img src="Assets/MergePr.png" alt=""><ul>
+<li>Note: in the real world, pull requests should be reviewed by a team before merging</li>
+</ul>
+</li>
+<li>Click the &quot;Confirm merge&quot; button to merge the changes into <code>develop</code><br> <img src="Assets/ConfirmMerge.png" alt=""></li>
+<li>Click the &quot;Delete branch&quot; button to delete the <code>alice-americanize-spelling</code> branch<br> <img src="Assets/DeleteBranch.png" alt=""></li>
+</ol>
+<p>Go back to the Code tab, and on the <code>develop</code> branch, check out the <strong>Frankenstein.md</strong> files. All the spellings should be Americanized - the changes from Alice&apos;s feature branch should be there!</p>
+<h2 id="creating-a-pull-request-for-bobs-branch">Creating a Pull Request for Bob&apos;s Branch</h2>
+<p>So Alice has successfully merged her changes into the <code>develop</code> branch, but Bob&apos;s are still isolated in his branch. He needs a Pull Request to get those changes into the codebase! This is doable via GitHub; it will be very similar to creating the Pull Request for Alice.</p>
+<ol>
+<li>Go to the &quot;Pull requests&quot; tab at the top of the page<br> <img src="Assets/PrTab.png" alt=""></li>
+<li>Click on &quot;New pull request&quot;<br> <img src="Assets/NewPullRequest.png" alt=""></li>
+<li>For the &quot;base&quot; branch, keep <code>develop</code></li>
+<li>For the &quot;compare&quot; branch, select <code>bob-fix-names</code><br> <img src="Assets/CompareBobBranch.png" alt=""></li>
+<li>Check out the changes and click the &quot;Create pull request&quot; button<br> <img src="Assets/CreatePr.png" alt=""></li>
+<li>On the next page, click the &quot;Create pull request&quot; button<br> <img src="Assets/CreateBobPr.png" alt=""></li>
+</ol>
+<p>Here, the problem becomes apparent: Bob&apos;s branch has conflicts with the <code>develop</code> branch! His changes cannot be merged into the codebase without dealing with these merge conflicts.</p>
+<h2 id="merging-develop-into-bob-fix-names">Merging <code>develop</code> into <code>bob-fix-names</code></h2>
+<p>In order to merge Bob&apos;s changes into the <code>develop</code> branch, it will first be necessary to merge the latest version of <code>develop</code> into <code>bob-fix-names</code>.</p>
+<ol>
+<li>Open up the local clone of the repository in VS Code</li>
+<li>Make sure to be on the <code>develop</code> branch<ul>
+<li>Command Line: <code>git checkout develop</code></li>
+<li>VS Code: click current branch in lower left, select <code>develop</code></li>
+</ul>
+</li>
+<li>Pull the latest changes from the server<ul>
+<li>Command Line: <code>git pull</code></li>
+<li>VS Code: click Source Control icon on the left menu, three dots, Pull</li>
+</ul>
+</li>
+<li>Switch to the <code>bob-fix-names</code> branch<ul>
+<li>Command Line: <code>git checkout bob-fix-names</code></li>
+<li>VS Code: click current branch in lower left, select <code>bob-fix-names</code></li>
+</ul>
+</li>
+<li>Open the <strong>Frankenstein.md</strong> file for editing<ul>
+<li>Make sure the name fixes are still there</li>
+<li>The Americanized spelling fixes should <em>not</em> be there</li>
+</ul>
+</li>
+<li>Attempt to merge in the <code>develop</code> branch by entering <code>git merge develop</code><ul>
+<li>An error should appear, saying that there are merge conflicts</li>
+</ul>
+</li>
+<li>Open up the <strong>Frankenstein.md</strong> file to see the merge conflict</li>
+</ol>
+<p>This is the hard part; it will be necessary to go into the <strong>Frankenstein.md</strong> file, and figure out how the conflicting changes merge together.</p>
+<h2 id="dealing-with-the-conflict">Dealing with the Conflict</h2>
+<p>The syntax for merge conflicts is a little weird, but it basically shows you the change coming from one side compared to the change coming from the other side.</p>
+<p>Under <code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</code> is the text as it currently is on the present branch. In the case of the <code>bob-fix-names</code> branch, it has properly swapped &quot;Maggie&quot; out for &quot;Margaret&quot;, but it still has the British spelling of &quot;splendour.&quot;</p>
+<p>The <code>=======</code> separates the two versions, with one being above and one being below.</p>
+<p>The <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt; develop</code> indicates the end of the second version of the text. In the case of the <code>develop</code> branch, it has the old name &quot;Maggie,&quot; but it has the fix for &quot;splendor.&quot;</p>
+<p>The goal, then, is to take the good parts of each version, mash them together into one final version, and get rid of the <code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</code>, <code>=======</code>, <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt; develop</code>, and old versions. Ultimately, the fix should replace this:</p>
+<pre><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+There, Margaret, the sun is for ever visible, its broad disk just skirting the horizon and diffusing a perpetual splendour.
+=======
+There, Maggie, the sun is for ever visible, its broad disk just skirting the horizon and diffusing a perpetual splendor.
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; develop
+</code></pre><p>with this:</p>
+<pre><code>There, Margaret, the sun is for ever visible, its broad disk just skirting the horizon and diffusing a perpetual splendor.
+</code></pre><p>Essentially, in this case, it will make sense to accept both changes; the one from the <code>develop</code> branch (originating from Alice) <em>and</em> the one from the <code>bob-fix-names</code> branch (originating from Bob).</p>
+<blockquote>
+<p>Note: in a real project, it may not be so clear cut; some additional work may be required to make sure all the code works together.</p>
+</blockquote>
+<p>Consolidate the changes using VS Code:</p>
+<ol>
+<li>Click the Source Control icon on the left to open the Source Control pane</li>
+<li>Click the <strong>Frankenstein.md</strong> file to see the &quot;Merge Changes&quot;</li>
+<li>For the conflict, select both the left change <em>and</em> the right change</li>
+<li>Notice that in the pane underneath, the &quot;Result&quot; includes both the correct name (&quot;Margaret&quot;) and the correct American spelling (&quot;splendor&quot;).</li>
+<li>Click the &quot;Accept Merge&quot; button to complete the merge</li>
+</ol>
+<p><img src="Assets/MergeVsCode.png" alt=""></p>
+<h2 id="pushing-up-the-resolution">Pushing Up the Resolution</h2>
+<p>Once the merge conflict has been resolved, it&apos;s time to push it up.</p>
+<ol>
+<li>Make sure the <strong>Frankenstein.md</strong> file is saved</li>
+<li>In the Source Control pane, click the &quot;Commit&quot; button</li>
+<li>After that, click the &quot;Sync Changes&quot; button that should appear</li>
+<li>Go to <a href="https://github.com" target="_blank">GitHub</a> and check on the <code>bob-fix-names</code> branch in the <strong>merge-demo</strong> repository<ul>
+<li>It should now be <strong>2 commits ahead</strong> of <code>develop</code>, and no commits behind!</li>
+</ul>
+</li>
+</ol>
+<h2 id="merging-bobs-pull-request">Merging Bob&apos;s Pull Request</h2>
+<p>Now the Pull Request should be ready for merging!</p>
+<ol>
+<li>On GitHub, click on the &quot;Pull requests&quot; tab</li>
+<li>Click on Bob&apos;s Pull Request</li>
+<li>Click the &quot;Merge pull request&quot; button, then the &quot;Confirm merge&quot; button</li>
+<li>Finally, click the &quot;Delete branch&quot; button</li>
+</ol>
+<p>Head back to the main repository page - there should only be the <code>develop</code> branch, and all changes from Alice and Bob should be in the <strong>Frankenstein.md</strong> file!</p>
+<h2 id="optional-fixing-the-additional-errors">OPTIONAL: Fixing the Additional Errors</h2>
+<p>There are still some bugs in the <strong>Frankenstein.md</strong> file! For some added practice, fix the additional spelling errors by following the proper process.</p>
+<ol>
+<li>On the <strong>merge-demo</strong> repository in GitHub, create a new branch named <code>fix-spelling</code></li>
+<li>Make the changes to the <strong>Frankenstein.md</strong> file on the new branch</li>
+<li>Create a pull request from the <code>fix-spelling</code> branch into the <code>develop</code> branch</li>
+<li>Merge in the changes!</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="PullRequestFollowAlong.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Pull Request Follow-Along">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Merge Changes Demo","level":"1.4.4","depth":2,"previous":{"title":"Pull Request Follow-Along","level":"1.4.3","depth":2,"path":"GitHubLesson/PullRequestFollowAlong.md","ref":"GitHubLesson/PullRequestFollowAlong.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"StudentDesc.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"GitHubLesson/MergeChanges.md","mtime":"2022-08-30T14:59:59.881Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-08-30T15:00:35.684Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
