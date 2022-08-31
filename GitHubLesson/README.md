@@ -20,7 +20,7 @@ Walk through [these instructions](PullRequestFollowAlong.md) with the students s
 The [Merge Changes](MergeChanges.md) demonstration shows how to deal with merge conflicts when multiple developers are working on the same repository at the same time. It involves some special setup - make sure to import a copy of [this demo repository](https://github.com/hto-projects/merge-demo-start) on GitHub, and use that for the walkthrough. Students do not need to follow along with this - the instructor can simply show it.
 
 ## Formative Assessment: Blooket Quiz
-Facilitate the [Blooket quiz](https://blooket.com/).
+Facilitate the [Blooket quiz](https://dashboard.blooket.com/set/630f5f59fceb6ef8c6461ec9).
 
 ## Agenda
 
