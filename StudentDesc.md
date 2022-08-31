@@ -17,3 +17,9 @@ Here is the schedule for this semester.
 - Session 10 (11/29): Project Work
 - Session 11 (12/6): Project Work
 - Session 12 (12/13): Final Demo
+
+## Team Submission
+[Click here for the team submission form.](https://forms.gle/Fv46p6VNzdhjvbzP9)
+
+## Project Choice Submission
+[Click here for the project choice submission form.](https://forms.gle/PRoEuNh3rUNdvfmN7)

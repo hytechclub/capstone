@@ -28,12 +28,16 @@ After the basic rundown, go over [Discord use](https://hylandtechclub.com/Discor
 Present the [Software Development Teams & Processes Lesson](../SoftwareDevTeamsLesson/README.md).
 
 ## Brainstorming
-Have each student try to think of feasible software project ideas. Websites, games, or other basic desktop applications could all work - try to steer students away from mobile apps though. Have each student come up with at least three ideas. They can also collaborate with other students during this period - but they should not fully form teams yet.
+Start by presenting some of the [Project Ideas & Technologies](../ProjectIdeasAndTechnologies.md) the students could use. Instructors should talk about their individual experience with different technologies. Theoretically, students could choose to work with any technology they would like; however, it will be much easier for instructors to support them if they use a technology that at least one instructor understands. Instructors should encourage students to choose a stack that will not be too difficult to learn and use. If desired, students can also take this opportunity to learn a new technology.
+
+Have each student try to think of feasible software project ideas. Websites, games, or other basic desktop applications could all work - **try to steer students away from mobile apps though.** Have each student come up with at least three ideas. They can also collaborate with other students during this period - but they should not fully form teams yet.
 
 At the end of this time, have each student share their ideas.
 
 ## Team Formation
 Have the students form teams. Each team should have at least two students, with a maximum of four students. It may be necessary to adjust the numbers so that everyone has a suitable team. If students do not know anybody, it may be necessary to place students on teams. _Note that throughout the course of the semester, each student will likely take on almost all of the software development team roles in some capacity; however, if a student has more interest in one specific role, they can focus their efforts there._ Instructors should approve each team.
+
+Teams can submit via the form on the [homepage](../StudentDesc.md). Responses are available [here](https://docs.google.com/spreadsheets/d/1iIOR62L0Wsm-Hr9zidpZfSF1uCvrak0iqQzOkqJoki4/edit?usp=sharing).
 
 ## Remaining Time
 If teams have all been formed before the end of the session, the remaining time can be used to do another icebreaker activity.
@@ -42,9 +46,9 @@ If teams have all been formed before the end of the session, the remaining time 
 
 | Activity | Time |
 |-|-|
-| Icebreakers | 45m |
+| Icebreakers | 40m |
 | Course Procedures Overview | 10m |
 | Break | 10m |
 | Software Development Lesson | 30m |
-| Brainstorming | 15m |
+| Brainstorming | 20m |
 | Team Formation | 10m |

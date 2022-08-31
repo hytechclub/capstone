@@ -15,16 +15,18 @@ By the end of the session, each team should have:
 Kick off the session with the [User Experience Lesson](../UserExperienceLesson/README.md). Students will hopefully be able to apply some of these concepts in the design of their product.
 
 ## Project Decision
-Each team should take some time to decide on a project. Instructors should approve each project idea to ensure that they are all feasible within the semester.
+Students may already be set on project ideas... or they may be considering a few options. Each team should take this time to decide on a project. Instructors should approve each project idea to ensure that they are all feasible within the semester. When they decide on their project, they should also have a tech stack in mind.
 
 **By the end of this section, each team should have a project decided.**
+
+Teams can submit their project choice via the form on the [homepage](../StudentDesc.md). Responses are available [here](https://docs.google.com/spreadsheets/d/1FtA5P88cf68Mx2xGDK1M6aqNnbCBtf5n-Vx6fznXH3E/edit?usp=sharing).
 
 ## Trello Boards
 Once projects have been decided, each team should create a [Trello Account](https://trello.com/signup). Once those have been created, they should create a new Trello board for their project. The team can customize which lanes they use, but some basic lanes would be:
 
 - **Planning**: for planning documents like design wireframes, or technological architecture
 - **To Do**: for a list of possible features or bug fixes, prioritized based on MVP
-- **In Progress**: for cards that someone is working on
+- **In Progress**: for cards that someone is actively developing
 - **Review**: for cards that need to be tested
 - **Done**: for cards that are tested and fully complete
 
