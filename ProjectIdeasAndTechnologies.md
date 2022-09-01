@@ -1,7 +1,7 @@
 # Project Ideas & Technologies
 Make sure your team chooses a project that is feasible as well as fun! This list is in no way comprehensive; feel free to select something totally different, as long as it is doable!
 
->_Note: mobile applications are discouraged as project ideas. If a team **really** wants to create a mobile app, they could look into [progressive web apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+>_Note: mobile applications are discouraged as project ideas. If a team **really** wants to create a mobile app, they could look into [progressive web apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)._
 
 ## Front-End Website
 For students who have gone through the [Web 101](https://hylandtechclub.com/web-101) and [Web 102](https://hylandtechclub.com/web-102) material, this may be a good option. This could be a fairly beginner-friendly choice, but it could still allow for some very creative and interesting projects! Here are some ideas:
