@@ -8,7 +8,7 @@ Students will be able to...
 - Define Git and GitHub
 - Create a feature branch in a local repository, push to it, and create a pull request
 
-## PowerPoint Presentation
+## Lecture
 Present the [PowerPoint Presentation](Presentation.pptx). There are notes in the slides.
 
 ## Follow-Along: Pull Request
@@ -26,7 +26,7 @@ Facilitate the [Blooket quiz](https://dashboard.blooket.com/set/630f5f59fceb6ef8
 
 | Activity | Time |
 |-|-|
-| PowerPoint Presentation | 30m |
+| Lecture | 30m |
 | Follow-Along | 20m |
 | Break | 10m |
 | Demonstration | 20m |

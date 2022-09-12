@@ -7,19 +7,19 @@ In the capstone course, students will work on one long-term project for the enti
 This course will be offered to students that are self-motivated, hard-working, and up for the challenge. Should a student wish to apply for Capstone, the Tech Outreach team will consult with the student's former instructors to determine if the student would be a good fit for the course. If an applicant is not a former Hy-Tech Club student, skill assessments may be given to determine if this is the best option for them.
 
 ## Instructor-Led Lessons
-- Software Development Teams and Processes
-- User Experience
-- GitHub
-- Presentations
+- [Software Development Teams and Processes](SoftwareDevTeamsLesson/)
+- [User Experience](UserExperienceLesson/)
+- [Git & GitHub](GitHubLesson/)
+- [Presentations](PresentationsLesson/)
 
 ## Schedule
 - [Session 1](Sessions/Session01.md): Icebreakers, Course Overview, [Software Development Teams Lesson](SoftwareDevTeamsLesson/README.md), Brainstorming, Team Formation
 - [Session 2](Sessions/Session02.md): [User Experience Lesson](UserExperienceLesson/README.md), Project Decision, Trello Board Creation, Repository Creation, Design and Backlog
 - [Session 3](Sessions/Session03.md): [GitHub Lesson](GitHubLesson/README.md), Project Work Begins
-- Session 4: [Project Work](ProjectWork.md)
+- Session 4: [Project Work](Sessions/ProjectWork.md)
 - Session 5: Project Work
 - Session 6: Project Work, [Presentations Lesson](PresentationsLesson/README.md)
-- Session 7: Mid-Semester Demo
+- Session 7: [Mid-Semester Demo](Sessions/Demos.md)
 - Session 8: Project Work
 - Session 9: Project Work
 - Session 10: Project Work
@@ -29,7 +29,7 @@ This course will be offered to students that are self-motivated, hard-working, a
 ## Technology
 - [Discord](https://discord.com/channels/1007371497645543434/1007374016262189158) for communication between teams and with instructors
 - [Trello](https://trello.com/) for story/ticket tracking
-- [GitHub](https://github.com/) or [Replit](https://replit.com/) for code storage (recommended)
+- [GitHub](https://github.com/) for code storage and collaboration
 - Any technology they want for the actual projects, with some guidelines
 
 ## Student Skills
