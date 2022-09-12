@@ -1,0 +1,2 @@
+# Demos
+Students should have a chance to demonstrate the software they are building through these demos. There should be two: one mid-semester demo, and a final demo. Each team should be given a block of time (e.g. 15 minutes) to present their product. They should show the product in action, as well as some of the code they wrote. They may create a presentation explaining more about what they learned, and how they applied their knowledge. There should be time for questions at the end of each demo.

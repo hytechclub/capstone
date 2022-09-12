@@ -1,0 +1,2 @@
+# Project Work
+After the initial few weeks, each session should be dedicated mostly to project work. During these sessions, start with a stand-up meeting where each member of each team discusses their work from the previous week, what they plan to do this week, and any roadblocks they may have. After that, student teams should be able to work independently on their projects. Instructors should be available if the students need help; instructors should also check in with each team on a regular basis.
