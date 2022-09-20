@@ -18,5 +18,5 @@ There is a [Blooket Quiz](https://dashboard.blooket.com/set/6303d93d6146ba2ff2a5
 
 | Activity | Time |
 |-|-|
-| Lecture | 20m |
-| Formative Assessment | 10m |
+| Lecture | 45m |
+| Formative Assessment | 15m |
