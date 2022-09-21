@@ -18,6 +18,9 @@ Here is the schedule for this semester.
 - Session 11 (12/6): Project Work
 - Session 12 (12/13): Final Demo
 
+## Session Recordings
+[Click here to view the session recordings.](SessionRecordings.md)
+
 ## Team Submission
 [Click here for the team submission form.](https://forms.gle/Fv46p6VNzdhjvbzP9)
 
