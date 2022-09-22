@@ -8,3 +8,4 @@
   - [Pull Request Follow-Along](GitHubLesson/PullRequestFollowAlong.md)
   - [Merge Changes Demo](GitHubLesson/MergeChanges.md)
   - [Resources](GitHubLesson/Resources.md)
+- [Presentations](PresentationsLesson/StudentDesc.md)
