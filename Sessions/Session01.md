@@ -1,10 +1,6 @@
 # Session 1
 The opening session should mostly serve to acclimate the students with the idea of the course, and allow them to form their teams.
 
-**Main Goal**
-
-By the end of this session, all teams should be fully formed.
-
 ## Icebreaker Activities
 There should be a significant focus on the icebreakers for this course. Students will be working together on teams, so it is important that they get to know each other a little bit. It may be worth facilitating multiple activities to start building camaraderie.
 

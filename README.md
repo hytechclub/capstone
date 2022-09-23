@@ -14,9 +14,9 @@ This course will be offered to students that are self-motivated, hard-working, a
 
 ## Schedule
 - [Session 1](Sessions/Session01.md): Icebreakers, Course Overview, [Software Development Teams Lesson](SoftwareDevTeamsLesson/README.md)
-- [Session 2](Sessions/Session02.md): [User Experience Lesson](UserExperienceLesson/README.md), Brainstorming, Team Formation, Project Decision, Trello Board Creation, Repository Creation, Design and Backlog
-- [Session 3](Sessions/Session03.md): [GitHub Lesson](GitHubLesson/README.md), Project Work Begins
-- Session 4: [Project Work](Sessions/ProjectWork.md)
+- [Session 2](Sessions/Session02.md): Brainstorming, Team Formation, [User Experience Lesson](UserExperienceLesson/README.md), Project Decision, Trello Board Creation, Design and Backlog
+- [Session 3](Sessions/Session03.md): Repository Creation, [GitHub Lesson](GitHubLesson/README.md)
+- Session 4: [Project Work Begins](Sessions/ProjectWork.md)
 - Session 5: Project Work
 - Session 6: Project Work, [Presentations Lesson](PresentationsLesson/README.md)
 - Session 7: [Mid-Semester Demo](Sessions/Demos.md)
