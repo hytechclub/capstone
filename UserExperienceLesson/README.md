@@ -18,4 +18,4 @@ At the end of the [slides](Presentation.pptx), there is an interactive activity.
 | Activity | Time |
 |-|-|
 | Lecture | 20m |
-| Activity | 10m |
+| Activity | 25m |

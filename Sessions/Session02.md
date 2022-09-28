@@ -55,6 +55,8 @@ Once projects have been decided, each team should create a [Trello Account](http
 
 [This board](https://trello.com/b/R1EEhM15/hy-tech-club-software-development-template) can be used as a template. Instructors should check that each team has a board created and customized.
 
+>_Note: For Fall 2022, the groups decided to use GitHub issues instead of Trello._
+
 ## Design & Backlog
 For the remainder of the session, teams should work on planning out their projects. They can collaborate on drawing up wireframes using [Figma](https://www.figma.com/), [draw.io](https://drawio-app.com/), or good old fashioned pen and paper. They can also add items to their To Do list, and work on prioritizing the list.
 
@@ -64,9 +66,9 @@ At this point, teams should focus mainly on the user-facing design and product f
 
 | Activity | Time |
 |-|-|
-| Brainstorming | 20m |
-| Team Formation | 10m |
-| Break | 10m |
 | User Experience Lesson | 45m |
+| Brainstorming | 20m |
+| Break | 10m |
+| Team Formation | 10m |
 | Project Decision | 15m |
 | Trello Boards | 20m |
