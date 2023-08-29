@@ -10,8 +10,11 @@ By the end of the session, each student should have a team and/or project. Addit
 - created a Trello board
 - filled the Trello board To Do list/Backlog with prioritized cards (stretch goal)
 
+## User Experience Lesson
+Start the session with the [User Experience Lesson](../UserExperienceLesson/README.md). Students will hopefully be able to apply some of these concepts in the design of their product.
+
 ## Brainstorming
-Start by presenting some of the [Project Ideas & Technologies](../ProjectIdeasAndTechnologies.md) the students could use. Instructors should talk about their individual experience with different technologies. Theoretically, students could choose to work with any technology they would like; however, it will be much easier for instructors to support them if they use a technology that at least one instructor understands. Instructors should encourage students to choose a stack that will not be too difficult to learn and use. If desired, students can also take this opportunity to learn a new technology.
+After the UX lesson, start by presenting some of the [Project Ideas & Technologies](../ProjectIdeasAndTechnologies.md) the students could use. Instructors should talk about their individual experience with different technologies. Theoretically, students could choose to work with any technology they would like; however, it will be much easier for instructors to support them if they use a technology that at least one instructor understands. Instructors should encourage students to choose a stack that will not be too difficult to learn and use. If desired, students can also take this opportunity to learn a new technology.
 
 Have each student try to think of feasible software project ideas. Websites, games, or other basic desktop applications could all work - **try to steer students away from mobile apps though.** Have each student come up with at least three ideas. They can also collaborate with other students during this period - but they should not fully form teams yet.
 
@@ -30,17 +33,14 @@ If students do not know anybody, it may be necessary to place students on teams.
 
 Put up a countdown timer to make sure all teams submit in a timely fashion.
 
-Teams can submit via the form on the [homepage](../StudentDesc.md). Responses are available [here](https://docs.google.com/spreadsheets/d/1iIOR62L0Wsm-Hr9zidpZfSF1uCvrak0iqQzOkqJoki4/edit?usp=sharing).
-
-## User Experience Lesson
-After teams have been formed, get into the [User Experience Lesson](../UserExperienceLesson/README.md). Students will hopefully be able to apply some of these concepts in the design of their product.
+Teams can submit via the form on the [homepage](../StudentDesc.md). Responses are available [here](https://docs.google.com/spreadsheets/d/1dOPODNSgDy05VlWb5PcsclIUVbZRGow0kbp8W-TH-tA/edit?usp=sharing).
 
 ## Project Decision
 Students may already be set on project ideas... or they may be considering a few options. Each team should take this time to decide on a project. Instructors should approve each project idea to ensure that they are all feasible within the semester. When they decide on their project, they should also have a tech stack in mind.
 
 **By the end of this section, each team should have a project decided.**
 
-Teams can submit their project choice via the form on the [homepage](../StudentDesc.md). Responses are available [here](https://docs.google.com/spreadsheets/d/1FtA5P88cf68Mx2xGDK1M6aqNnbCBtf5n-Vx6fznXH3E/edit?usp=sharing).
+Teams can submit their project choice via the form on the [homepage](../StudentDesc.md). Responses are available [here](https://docs.google.com/spreadsheets/d/15udQZXIv-hW5vW_Ik7TlzXdGGosNa-BH4lfaZDvAt-Y/edit?usp=sharing).
 
 >_NOTE: Instructors should create GitHub repositories for each project once the projects have been decided_
 
