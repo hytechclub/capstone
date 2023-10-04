@@ -8,15 +8,15 @@ Here is the schedule for this semester.
 - Session 2 (9/26): [Project Brainstorming](ProjectIdeasAndTechnologies.md), Team Formation, [User Experience Lesson](UserExperienceLesson/StudentDesc.md), Project Decision, Trello Board Creation, Design and Backlog Refinement
 - Session 3 (10/3): GitHub Repository Cloning, [GitHub Lesson](GitHubLesson/StudentDesc.md)
 - Session 4 (10/10): Project Work Begins
-- Session 5 (10/17): Project Work
+- Session 5 (10/17): Project Work / [Check-ins](https://hylandtechclub.com/CheckIns.html)
 - Session 6 (10/24): Project Work, [Presentations Lesson](PresentationsLesson/StudentDesc.md)
-- Session 7 (10/31): Mid-Semester Demo
-- Session 8 (11/7): Project Work
-- Session 9 (11/14): Project Work
+- **NO CLUB 10/31**
+- Session 7 (11/7): Mid-Semester Demo
+- Session 8 (11/14): Project Work
 - **NO CLUB 11/21**
-- Session 10 (11/28): Project Work
-- Session 11 (12/5): Project Work
-- Session 12 (12/12): Final Demo
+- Session 9 (11/28): Project Work
+- Session 10 (12/5): Project Work
+- Session 11 (12/12): Final Demo
 
 ## Session Recordings
 [Click here to view the session recordings.](SessionRecordings.md)
