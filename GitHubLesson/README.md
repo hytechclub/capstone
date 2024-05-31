@@ -1,5 +1,5 @@
 # Git & GitHub
-This lesson introduces Git and GitHub, and lets students practice using some basic version control processes. It is designed to take ~90 minutes.
+This lesson introduces Git and GitHub, and lets students practice using some basic version control processes. It is designed to take ~90 minutes. [Click here for the student-facing site.](https://hylandtechclub.com/capstone/GitHubLesson/StudentDesc.html)
 
 ## Learning Objectives
 Students will be able to...
