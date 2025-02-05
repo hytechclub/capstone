@@ -23,10 +23,11 @@ This course will be offered to students that are self-motivated, hard-working, a
 - Session 8: Project Work
 - Session 9: Project Work
 - Session 10: Project Work
-- Session 11: Final Demo
+- Session 11: Project Work
+- Session 12: Final Demo
 
 ## Technology
-- [Discord](https://discord.com/channels/1007371497645543434/1007374016262189158) for communication between teams and with instructors
+- [Discord](https://discord.com/) for communication between teams and with instructors
 - [Trello](https://trello.com/) for story/ticket tracking
 - [GitHub](https://github.com/) for code storage and collaboration
 - Any technology they want for the actual projects, with some guidelines

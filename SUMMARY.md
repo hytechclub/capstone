@@ -1,4 +1,3 @@
-- [Session Recordings](SessionRecordings.md)
 - [Software Development Teams](SoftwareDevTeamsLesson/StudentDesc.md)
 - [Project Ideas & Technologies](ProjectIdeasAndTechnologies.md)
 - [User Experience](UserExperienceLesson/StudentDesc.md)

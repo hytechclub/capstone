@@ -68,13 +68,13 @@ There are a ton of ways to build a video game, and it can be a really fun way to
 
 - Python using [Pygame](https://www.pygame.org/wiki/about)
 - [Web games](https://developer.mozilla.org/en-US/docs/Games)
+- [Phaser](https://phaser.io/)
 - [Processing](https://processing.org/) - good for beginners, can also create visualizations!
 - C# using [MonoGame](https://github.com/MonoGame/MonoGame)
 
 ## API Integration
 There are a ton of interesting [API](https://aws.amazon.com/what-is/api/)s that allow developers to integrate their applications with a variety of services. Typically, an API will have libraries for some different programming languages. Here are some possibilities:
 
-- [Twitter](https://developer.twitter.com/en/docs/twitter-api)
 - [Spotify](https://developer.spotify.com/documentation/web-api/)
 - [Other public APIs](https://github.com/public-apis/public-apis)
 
