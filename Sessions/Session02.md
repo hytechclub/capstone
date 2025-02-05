@@ -7,8 +7,8 @@ By the end of the session, each student should have a team and/or project. Addit
 
 - decided on a project idea
 - created some designs for the product
-- created a Trello board
-- filled the Trello board To Do list/Backlog with prioritized cards (stretch goal)
+- created a Trello board (or GitHub Issues board)
+- filled the board To Do list/Backlog with prioritized cards (stretch goal)
 
 ## User Experience Lesson
 Start the session with the [User Experience Lesson](../UserExperienceLesson/README.md). Students will hopefully be able to apply some of these concepts in the design of their product.
@@ -31,21 +31,19 @@ It may be necessary to adjust the numbers so that everyone has a suitable team.
 ### Formation Process
 If students do not know anybody, it may be necessary to place students on teams. _Note that throughout the course of the semester, each student will likely take on almost all of the software development team roles in some capacity; however, if a student has more interest in one specific role, they can focus their efforts there._ Instructors should approve each team.
 
-Put up a countdown timer to make sure all teams submit in a timely fashion.
-
-Teams can submit via the form on the [homepage](../StudentDesc.md). Responses are available [here](https://docs.google.com/spreadsheets/d/1dOPODNSgDy05VlWb5PcsclIUVbZRGow0kbp8W-TH-tA/edit?usp=sharing).
+Put up a countdown timer to make sure all teams form in a timely fashion.
 
 ## Project Decision
 Students may already be set on project ideas... or they may be considering a few options. Each team should take this time to decide on a project. Instructors should approve each project idea to ensure that they are all feasible within the semester. When they decide on their project, they should also have a tech stack in mind.
 
 **By the end of this section, each team should have a project decided.**
 
-Teams can submit their project choice via the form on the [homepage](../StudentDesc.md). Responses are available [here](https://docs.google.com/spreadsheets/d/15udQZXIv-hW5vW_Ik7TlzXdGGosNa-BH4lfaZDvAt-Y/edit?usp=sharing).
+Teams can submit their project choice via the form on the [homepage](../StudentDesc.md). Responses are available [here](https://hylandsw-my.sharepoint.com/:x:/g/personal/joseph_maxwell_hyland_com/EROGVVVJwMZBjaqyLVipN4kB9r4zEQGA7K04jty1q7aGww?e=NXRAsd).
 
 >_NOTE: Instructors should create GitHub repositories for each project once the projects have been decided_
 
-## Trello Boards
-Once projects have been decided, each team should create a [Trello Account](https://trello.com/signup). Once those have been created, they should create a new Trello board for their project. The team can customize which lanes they use, but some basic lanes would be:
+## Trello Boards / GitHub Issues
+Once projects have been decided, each team should create a board. They can do this with Trello by creating a [Trello Account](https://trello.com/signup). They can also use GitHub issues. The team can customize which lanes they use, but some basic lanes would be:
 
 - **Planning**: for planning documents like design wireframes, or technological architecture
 - **To Do**: for a list of possible features or bug fixes, prioritized based on MVP
@@ -53,9 +51,7 @@ Once projects have been decided, each team should create a [Trello Account](http
 - **Review**: for cards that need to be tested
 - **Done**: for cards that are tested and fully complete
 
-[This board](https://trello.com/b/R1EEhM15/hy-tech-club-software-development-template) can be used as a template. Instructors should check that each team has a board created and customized.
-
->_Note: For Fall 2022, the groups decided to use GitHub issues instead of Trello._
+[This Trello board](https://trello.com/b/R1EEhM15/hy-tech-club-software-development-template) can be used as a template. Instructors should check that each team has a board created and customized.
 
 ## Design & Backlog
 For the remainder of the session, teams should work on planning out their projects. They can collaborate on drawing up wireframes using [Figma](https://www.figma.com/), [draw.io](https://drawio-app.com/), or good old fashioned pen and paper. They can also add items to their To Do list, and work on prioritizing the list.
