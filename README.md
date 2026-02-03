@@ -22,15 +22,16 @@ This course will be offered to students that are self-motivated, hard-working, a
 - Session 7: [Mid-Semester Demo](Sessions/Demos.md)
 - Session 8: Project Work
 - Session 9: Project Work
-- Session 10: Project Work
-- Session 11: Project Work
-- Session 12: Final Demo
+- Session 10: Final Demo
 
 ## Technology
 - [Discord](https://discord.com/) for communication between teams and with instructors
 - [Trello](https://trello.com/) for story/ticket tracking
 - [GitHub](https://github.com/) for code storage and collaboration
 - Any technology they want for the actual projects, with some guidelines
+
+## Project Ideas Sheet
+[View Responses](https://hylandsw-my.sharepoint.com/:x:/g/personal/techoutreachteam_hyland_com/IQBN0U6J_7O-SL7gXuOuo9HGAYlz1m2zGXilE80NYGfjd1w?e=qyqiiV)
 
 ## Student Skills
 Throughout the semester, students should learn and practice the following skills:

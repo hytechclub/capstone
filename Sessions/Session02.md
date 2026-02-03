@@ -38,7 +38,7 @@ Students may already be set on project ideas... or they may be considering a few
 
 **By the end of this section, each team should have a project decided.**
 
-Teams can submit their project choice via the form on the [homepage](../StudentDesc.md). Responses are available [here](https://hylandsw-my.sharepoint.com/:x:/g/personal/joseph_maxwell_hyland_com/EROGVVVJwMZBjaqyLVipN4kB9r4zEQGA7K04jty1q7aGww?e=NXRAsd).
+Teams can submit their project choice via the form on the [homepage](../StudentDesc.md). Responses are available [here](https://hylandsw-my.sharepoint.com/:x:/g/personal/techoutreachteam_hyland_com/IQBN0U6J_7O-SL7gXuOuo9HGAYlz1m2zGXilE80NYGfjd1w?e=qyqiiV).
 
 >_NOTE: Instructors should create GitHub repositories for each project once the projects have been decided_
 
